@@ -1,0 +1,22 @@
+# Numero entero 
+numero_entero = 2
+
+# String
+string = "Hola mundo"
+
+# Numero entero
+operacion = 2 + 2
+
+# Asignacion de valor a multiples variables
+a = b = c = 1
+
+# Asignacion multiple a diferentes variables en una misma linea de codigo 
+a, b, c = 3, 2, 1
+
+# Numero entero
+operacion_dos = -2 - 5
+
+# Numeros flotantes
+flotante = 1.1 + 2.2
+
+print 
