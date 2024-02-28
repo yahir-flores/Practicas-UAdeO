@@ -1,12 +1,12 @@
 # Ejercicio
 "Encontrar area de un cuadrado que mide 6 por lado"
 
-Lado = "Lados del cuadrado" + " " + "=" + " " + "6"
+lado = "Lados del cuadrado" + " " + "=" + " " + "6"
 formula_area = "Formula para encontrar el area" + " " + "=" + " " + "Lado" + " * " + "Lado" 
 operacion = "Operacion" " " + "=" " " "6" " " + "*" " " + "6"
 area = "Area" " " + "=" " "  "36"
 
-print(Lado)
+print(lado)
 print(formula_area)
 print(operacion)
 print(area)
