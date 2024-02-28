@@ -6,7 +6,7 @@ formula_area = "Formula para encontrar el area" + " " + "=" + " " + "Lado" + " *
 operacion = "Operacion" " " + "=" " " "6" " " + "*" " " + "6"
 area = "Area" " " + "=" " "  "36"
 
-print (Lado)
+print(Lado)
 print(formula_area)
 print(operacion)
 print(area)
