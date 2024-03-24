@@ -1,0 +1,65 @@
+# Solicita al usuario que ingrese dos numeros y luego imprime un mensaje indicando cual es el mayor y cual es el menor 
+
+A = int(input("Elija el valor de A"))
+B = int(input("Elija un valor de B"))
+
+if  A > B :
+    print("El valor {A} es mayor que {B}")
+else :
+    print(f"B es mayor que A")    
+
+# Pide al usuario que ingrese un numero y muestra un mensaje indicando si es positivo, negativo o cero.
+    
+X = int(input("Ingrese un numero aleatoreo"))
+if "X" > 0 :
+    print("Su numero es positivo")
+elif "X" < 0 :
+    print("Su numero es negativo")
+else : "X" == 0 
+print("Su numero es 0")
+
+# Pide al usuario que ingrese una calificacion y muestra un mensaue indicando si es A, B, C, D ó F segun la escala de calificacion estandar (100, 90, 80, etc)
+
+X = int(input("Ingresa tu calificacion"))
+
+if "X" == "A" :
+    print("Tu calificacion es 100")
+elif "X" == "B" :
+    print("Tu calificacion es igual a 90")
+elif "X" == "C" :
+    print("Tu calificacion es 80")
+elif "X" == "D" :
+    print("Tu calificacion es 70")
+elif "X" == "E" :
+    print("Tu calificacion es 60")
+else :
+    print("Tu calificacion es 50")
+
+# Solicita un numero al usuario e indica si es par o inpar 
+    
+X = int(input("Coloca aqui cualquier numero positivo"))
+operacion = X % 0
+if X == 0 :
+    print("Su numero es par")
+else :
+    print("Su numero es impar")
+
+# Ejercicio de tarea (Lo termine en clase)
+    # Hacer una funcion donde manden 3 parametros, en el primero y el segundo seran numeros y el tercero sera el tipo de operación 
+    #que quieres realizar. Si la operación es suma, sumaran y regresaran el resultado para imprimirlo. El mismo caso para la resta, 
+    #división, multiplicacion y potencia.
+
+def operation (Num_1, Num_2, op)
+if "op" == "Suma" :
+    return = Num_1 + Num_2
+if "op" == "Resta" :
+    return =  Num_1 - Num_2
+if "op" == "Multiplicación" :
+    return = Num_1 * Num_2
+if "op" == "División" :
+    return = Num_1 / Num_2
+else :
+    print("Operacion invalida")
+
+res = operation (2, 3, "Suma")
+print(f"El resultado de la operacion es {res}")
