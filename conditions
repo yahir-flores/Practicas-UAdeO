@@ -1,0 +1,89 @@
+# El if se utiliza para
+# ejecutar un bloque de
+# código si, y solo si,
+# se cum
+# ple una determinada condición.
+
+# if
+x = 1
+y = 1
+
+# if x == y:
+#     print('Verdadero')
+# print('Brincó')
+
+# if else
+# a = 5
+# if a > 10:
+#     print('Si es mayor')
+# else:
+#     print('Es menor')
+
+# list = [1, 2, 3, 4]
+
+# if 2 in list:
+#     print('Exite')
+# else:
+#     print('No existe')
+
+# else if
+
+# result = None
+# x = 10
+# y = -2
+
+# if y > 0:
+#     result = x / y
+# elif y == 0:
+#     result = y
+# else:
+#     result = f'No se puede divir {x} entre {y}'
+# print(result)
+
+# # Condiciones anidadas
+# x = 0
+# if x < 0:
+#     print(f'{x} es menor que 0')
+# else:
+#     if x > 0:
+#         print(f'{x} es mayor que 0')
+#     else:
+#         print('X es 0')
+
+# if x < 0:
+#     print(f'{x} es menor que 0')
+# elif x > 0:
+#     print(f'{x} es mayor que 0')
+# else:
+#     print('X es 0')
+
+# edad = int(input("¿Cuantos años tienes?"))
+# if edad < 18:
+#     print('Es usted menor de dad')
+# else:
+#     print(f'Es usted {edad} mayor de edad')
+# print('Salió del programa')
+
+
+# 1.- Solicita al usuario que ingrese dos números y luego imprime
+#  un mensaje indicando cuál es el mayor y cuál es el menor.
+
+num_1 = int(input('Dame el primer numero'))
+# Hacer operación y si es igual a cero entonces es par, si no es impar
+
+if num_1 > num_2:
+    print('numero_ 1 > nnumero_2')
+else:
+    print('numero_ 2 > nnumero_1')
+
+# 2
+# Pide al usuario que ingrese un número y
+# muestra un mensaje indicando si es positivo, negativo o cero.
+
+# 3
+# Pide al usuario que ingrese una calificación y muestra un mensaje
+# indicando si es A, B, C, D o F
+# según la escala de calificación estándar (100, 90, 80, etc).
+
+# 4
+# Solicita un número al usuario e indica si es par o impar.
