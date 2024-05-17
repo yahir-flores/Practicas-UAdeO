@@ -1,0 +1,36 @@
+# Ejemplo 1
+# Si el semáfoto está en verde, cruzar la calle, sino esperar
+
+semaforo = 'verde'
+
+if semaforo == 'verde':
+    print('cruzar calle')
+else:
+    print('Esperar')
+
+
+# Ejmplo 2
+# Si gasto hasta $100, pago con dinero en efectivo.
+# Si no, si gasto más de $100 pero menos de $300,
+# pago con tarjeta de débito. Si no, pago con tarjeta de crédito.
+compra = 500
+
+if compra <= 100:
+    print('Pago en efectivo')
+elif compra > 100 and compra < 300:
+    print('Pago con tarjeta de debito')
+else:
+    print("Pago con tarjeta de crédito")
+
+# Ejemplo 3
+# Si la compra es mayor a 100, obtengo un descuento del 10%
+
+total_compra = 100
+
+importe_a_pagar = total_compra
+if total_compra >= 100:
+    tasa_descuento = 10
+    importe_descuento = total_compra * tasa_descuento / 100
+    importe_a_pagar = total_compra - importe_descuento
+
+print(f'importe a pagar: {importe_a_pagar}')
