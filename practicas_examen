@@ -1,0 +1,50 @@
+#1. Contar la cantidad de letras en una palabra ingresada por el usuario
+
+print("Este programa es para poder contar las letras que tiene la palabra que tu decidas")
+
+palabra_usuario = input("Coloca cualquier palabra: ")
+
+contador = 0
+
+for i in palabra_usuario : 
+    contador+=1
+
+print("Tu palabra tiene", contador, "letras")
+
+#2. Haz un programa que te calcule el promedio de una lista de calificaciones
+
+print("Este programa te servira para calcular el promedio de tus calificaciones")
+
+matematicas = int(input("¿Cuanto sacaste en matematicas?"))
+español = int(input("¿Cuanto sacaste en español?"))
+ciencias = int(input("¿Cuanto sacaste en ciencias?"))
+historia = int(input("¿Cuanto sacaste en historia?"))
+geografia = int(input("¿Cuanto sacaste en geografia?"))
+
+operacion = matematicas * español * ciencias * historia * geografia / 5
+
+print("Tu promedio de este semestre es", operacion)
+
+#5. Haz un programa que te ayude a hacer una suma a partir de 2 numeros ingresados por el usuario 
+print("Coloca 2 numeros que quisieras sumar")
+
+num1 = int(input("Primer valor: "))
+num2 = int(input("Segundo valor: "))
+
+operacion = num1 + num2
+
+print("El resultado de la operacion es: ", operacion)
+
+#6. Haz un programa donde hagas una resta y te diga si es el resultado es un numero positivo o negativo
+
+print("Este programa servira para saber si el resultado de tu resta da como resultado un numero positivo o negativo")
+
+num1 = int(input("Coloca aqui el primer valor: "))
+num2 = int(input("Coloca aqui el segundo valor: "))
+
+operacion = num1 - num2
+
+if operacion < 0 :
+    print("El resultado de tu resta es un numero negativo")
+else :
+    print("El resultado de tu operacion es un numero positivo")
